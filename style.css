@@ -1,0 +1,86 @@
+body {
+		background-color:  rgb(40%, 80%,80%) ;
+		color: saddlebrown ;
+		font-family: verdana ;
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQ0Mi0zMDY3MzktamouanBn.jpg") ;
+    background-size: cover;
+	}	
+	a,
+	li {
+		text-decoration:  none ;
+		color: sandybrown ;
+		font-weight: bold ;
+	}
+		a:hover,
+		li:hover {
+			cursor: pointer ;
+			text-decoration: underline ;
+		}	
+	p {
+		margin-top:  0px ;
+	}	
+	em {
+		color: saddlebrown ;
+	}	
+	#logo {
+		position: absolute ;
+		top: 50px ;
+		left: 30px ;
+		width: 530px ;
+		height: 120px ; 
+		background-image: 
+			radial-gradient( 
+				ellipse at center,
+				tan 20%, 
+				sandybrown 70%,
+				white 
+			) ; 
+		display: flex ;
+		justify-content: center ;
+		align-items: center ;
+	}		
+	#page-title {
+		position: absolute ;
+		top: 75px ;
+		left: 600px ;
+		width: 300px ;
+		font-size: 1em ;
+	}	
+	#navigation-menu {
+		position: absolute ;
+		top: 200px ;
+		left: 70px ;
+		font-size: 18px ;
+	}		
+#special{
+  border: 3px solid blue;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  position: absolute;
+}
+		ul {
+			list-style: none ;
+		}
+		li {
+			margin-top: 5px ;
+		}	
+	.description {
+		position: absolute ;
+		top: 270px ;
+		left: 350px ;
+		width: 600px ;
+		font-size: 1.5em ;
+		padding: 1em ;
+		border-radius: .5em ;
+    background-color: tan;
+    filter: blur(5em) ;
+    opacity: 0 ;
+    transition: all 1s ease-out ;
+	}
+	.description img {
+		float: left;
+		margin: 0 1em .5em 0;
+		width: 50%;
+	}
